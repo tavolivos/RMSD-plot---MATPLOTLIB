@@ -24,8 +24,8 @@ ax.set_xlim(time_complex.min(), time_complex.max())
 
 subprocess.call ('mkdir PLOTS', shell = True)
 
-fig.savefig("PLOTS/rmsd.png", format='png', dpi=350)
-fig.savefig("PLOTS/rmsd.svg", format='svg', dpi=350)
-fig.savefig("PLOTS/rmsd.pdf", format='svg', dpi=350)
-fig.savefig("PLOTS/rmsd.eps", format='eps', dpi=350)
-fig.savefig("PLOTS/rmsd.tif", format='tif', dpi=350)
+fig.savefig("PLOTS/rmsd.png", format='png', dpi=350, transparent=True)
+fig.savefig("PLOTS/rmsd.svg", format='svg', dpi=350, transparent=True)
+fig.savefig("PLOTS/rmsd.pdf", format='svg', dpi=350, transparent=True)
+fig.savefig("PLOTS/rmsd.eps", format='eps', dpi=350, transparent=True)
+fig.savefig("PLOTS/rmsd.tif", format='tif', dpi=350, transparent=True)
