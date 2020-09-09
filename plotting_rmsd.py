@@ -26,6 +26,6 @@ subprocess.call ('mkdir PLOTS', shell = True)
 
 fig.savefig("PLOTS/rmsd.png", format='png', dpi=350, transparent=True)
 fig.savefig("PLOTS/rmsd.svg", format='svg', dpi=350, transparent=True)
-fig.savefig("PLOTS/rmsd.pdf", format='svg', dpi=350, transparent=True)
+fig.savefig("PLOTS/rmsd.pdf", format='pdf', dpi=350, transparent=True)
 fig.savefig("PLOTS/rmsd.eps", format='eps', dpi=350, transparent=True)
 fig.savefig("PLOTS/rmsd.tif", format='tif', dpi=350, transparent=True)
